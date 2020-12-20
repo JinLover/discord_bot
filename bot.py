@@ -8,7 +8,6 @@ from discord.ext import commands
 
 bot = commands.Bot(command_prefix='!')
 bot.remove_command('help')
-token = "NzA0NTI0MTg2NTEyNjU0Mzc2.XqerAQ.qe6Fxb-kR2RFhC8HhkUUnVc02mc"
 
 @bot.event
 async def on_ready():
