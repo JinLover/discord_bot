@@ -134,4 +134,4 @@ async def help(ctx):
 
 """
 """
-bot.run(token)
+bot.run((os.environ['token'])
