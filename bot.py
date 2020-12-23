@@ -12,7 +12,7 @@ bot.remove_command('help')
 async def on_ready():
     print(bot.user.id)
     print("ready")
-    game = discord.Game("레식 전적 검색")
+    game = discord.Game("혼자서 놀기")
     await bot.change_presence(status=discord.Status.online, activity=game)
 
 @bot.command()
@@ -31,13 +31,10 @@ async def 안녕(ctx):
     my_name = discord.utils.get(ctx.guild.members, name = ctx.message.author.name)
     await ctx.send("안녕하세요 {}님".format(my_name.mention))
 
-@app.command(name="DM보내기", pass_context=True)
-async def send_dm(ctx, user_name: discord.Member):
-    channel = await user_name.create_dm()
-    await channel.send("Python Bot에 의해 출력됨.")
-
 @bot.command()
 async def help(ctx):
+    user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
+    channel = await user.create_dm()
     embed = discord.Embed(colour = discord.Colour.red())
     #embed를 생성하고, embed의 색상을 blue로 지정합니다
     embed.set_author(name = "도움말")
@@ -45,7 +42,7 @@ async def help(ctx):
     embed.add_field(name = "!안녕",value = "봇이 인사해줍니다",inline=False)
     embed.add_field(name = "!공수",value = "공격/수비별로 각각 가장 많이 플레이한 2명의 오퍼 전적을 알려줍니다.", inline=False)
     embed.add_field(name = "!검색 (오퍼이름)",value = "오퍼의 전적을 알려줍니다.", inline=False)
-    await ctx.send(embed=embed)
+    await channel.send(embed=embed)
     #embed 를 전송합니다.
 
 """
