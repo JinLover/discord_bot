@@ -16,7 +16,6 @@ async def on_ready():
     game = discord.Game("레식 전적 검색")
     await bot.change_presence(status=discord.Status.online, activity=game)
 
-
 @bot.command()
 async def 안녕(ctx):
     my_name = discord.utils.get(ctx.guild.members, name = ctx.author.name)
@@ -134,4 +133,4 @@ async def help(ctx):
 
 """
 """
-bot.run((os.environ['token'])
+bot.run(os.environ['token'])
