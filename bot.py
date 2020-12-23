@@ -34,9 +34,9 @@ async def 도움(ctx):
     #embed를 생성하고, embed의 색상을 blue로 지정합니다
     embed.set_author(name = "도움말")
     #embed의 author를 "Help"로 지정합니다.
-    embed.add_field(name = "!안녕",value = "봇이 인사해줍니다",inline=True)
-    embed.add_field(name = "!(맵이름)",value = "봇이 인사해줍니다",inline=True)
-    embed.add_field(name = "!안녕",value = "봇이 인사해줍니다",inline=True)
+    embed.add_field(name = "기본 명령어",value = "!안녕:봇이 인사해줍니다",inline=True)
+    embed.add_field(name = "레인보우 식스: 시즈 명령어",value = "!맵이름: !맵이름을 치면(ex:!별장) 지명사진을 보냅니다.",inline=True)
+    embed.add_field(name = "테이블탑 시뮬레이터 명령어",value = "!추천(숫자): !추천(숫자)를 치면(ex: !추천3) n인용 게임을 추천해줍니다.",inline=True)
     await channel.send(embed=embed)
     #embed 를 전송합니다.
 
