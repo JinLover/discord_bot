@@ -2,7 +2,6 @@ import discord
 import asyncio
 import datetime
 
-#from bs4 import BeautifulSoup
 from discord.ext import commands
 
 intents = discord.Intents.all()
@@ -52,4 +51,5 @@ async def help(ctx):
 
 """
 """
-bot.run(os.environ['token'])
+#bot.run(os.environ['token'])
+bot.run("NzA0NTI0MTg2NTEyNjU0Mzc2.XqeZRw.mUA3sjBl-y3JbXqV4yY-LLS3VJI")
