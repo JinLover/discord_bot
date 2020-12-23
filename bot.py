@@ -31,11 +31,10 @@ async def 안녕(ctx):
     my_name = discord.utils.get(ctx.guild.members, name = ctx.message.author.name)
     await ctx.send("안녕하세요 {}님".format(my_name.mention))
 
-@bot.command()
-async def 떡집(ctx):
-    a_Datetime = datetime.datetime.now()
-    b_Datetime = datetime.datetime.strptime('2020-12-3', '%Y-%m-%d')
-    await ctx.channel.send("떡집이 오기까지 %s일"%(b_Datetime-a_Datetime).days)
+@app.command(name="DM보내기", pass_context=True)
+async def send_dm(ctx, user_name: discord.Member):
+    channel = await user_name.create_dm()
+    await channel.send("Python Bot에 의해 출력됨.")
 
 @bot.command()
 async def help(ctx):
