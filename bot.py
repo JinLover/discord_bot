@@ -1,6 +1,5 @@
 import discord
 import asyncio
-import datetime
 
 from discord.ext import commands
 
@@ -51,5 +50,4 @@ async def help(ctx):
 
 """
 """
-#bot.run(os.environ['token'])
-bot.run("NzA0NTI0MTg2NTEyNjU0Mzc2.XqeZRw.mUA3sjBl-y3JbXqV4yY-LLS3VJI")
+bot.run(os.environ['token'])
