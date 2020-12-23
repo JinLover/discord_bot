@@ -1,9 +1,9 @@
 import discord
 import asyncio
-#import requests
+import requests
 import datetime
 
-#from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 from discord.ext import commands
 
 bot = commands.Bot(command_prefix='!')
