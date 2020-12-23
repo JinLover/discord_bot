@@ -1,5 +1,2 @@
 discord.py
 asyncio
-requests
-datetime
-bs4
