@@ -79,6 +79,7 @@ async def 추천(ctx, *, num = "1"):
     await ctx.send(embed = embed)
     return 0
 
+
 #@bot.command(name="청소", pass_context=True)
 async def _clear(ctx, *, amount=1):
     await ctx.channel.purge(limit=amount)
