@@ -63,14 +63,20 @@ async def 지명(ctx, *, name = ""):
 @bot.command()
 async def 추천(ctx, *, num = "1"):
     user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
-    embed = discord.Embed(colour = discord.Colour.orange())
-    embed.set_author(name = f"{num}인용 보드게임 추천")
-    embed.add_field(name = "**[지도 제작자들](<https://steamcommunity.com/sharedfiles/filedetails/?id=1817723272&searchtext=%EC%A7%80%EB%8F%84+%EC%A0%9C%EC%9E%91%EC%9E%90%EB%93%A4>)**",
-                    value = "완벽한 지도를 탄생시키세요!",inline=False)
-    embed.add_field(name = "[**플리트 주사위 게임**](<https://steamcommunity.com/sharedfiles/filedetails/?id=1815452941&searchtext=Fleet%3A+The+Dice>)",
-                    value = "`!지명 (맵이름)`: `!지명 (맵이름)`을 치면(ex:`!지명 별장`) 지명사진을 보냅니다.",inline=False)
-    embed.add_field(name = "**테이블탑 시뮬레이터 명령어**",
-                    value = "`!추천 (숫자)`: `!추천 (숫자)`를 치면(ex: `!추천3`) n인용 게임을 추천해줍니다.",inline=False)
+    embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 추천", 
+                          description = "")
+    embed.add_field(name = "**지도 제작자들**",
+                    value = """[다운로드](https://steamcommunity.com/sharedfiles/filedetails/?id=1817723272&searchtext=%EC%A7%80%EB%8F%84+%EC%A0%9C%EC%9E%91%EC%9E%90%EB%93%A4)
+                            완벽한 지도를 탄생시키세요!""",
+                    inline=False)
+    embed.add_field(name = "**플리트 주사위 게임**",
+                    value = """[다운로드](https://steamcommunity.com/sharedfiles/filedetails/?id=1815452941&searchtext=Fleet%3A+The+Dice>)
+                            뭐하는 게임일까?""",
+                    inline=False)
+    embed.add_field(name = "**플리트 주사위 게임**",
+                    value = """[다운로드](https://steamcommunity.com/sharedfiles/filedetails/?id=1815452941&searchtext=Fleet%3A+The+Dice>)
+                            뭐하는 게임일까?""",
+                    inline=False)
     await ctx.send(embed = embed)
     return 0
 
