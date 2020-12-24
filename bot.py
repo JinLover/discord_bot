@@ -71,7 +71,7 @@ async def 추천(ctx, *, num = "1"):
                     value = "`!지명 (맵이름)`: `!지명 (맵이름)`을 치면(ex:`!지명 별장`) 지명사진을 보냅니다.",inline=False)
     embed.add_field(name = "**테이블탑 시뮬레이터 명령어**",
                     value = "`!추천 (숫자)`: `!추천 (숫자)`를 치면(ex: `!추천3`) n인용 게임을 추천해줍니다.",inline=False)
-    await ctx.send(file = file)
+    await ctx.send(embed = embed)
     return 0
 
 
