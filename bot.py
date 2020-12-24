@@ -14,6 +14,7 @@ async def on_ready():
     print("ready")
     game = discord.Game("혼자서 놀기")
     await bot.change_presence(status=discord.Status.online, activity=game)
+    return 0
 
 #@bot.command()
 #async def member(ctx):
@@ -25,6 +26,7 @@ async def on_ready():
 async def 안녕(ctx):
     my_name = discord.utils.get(ctx.guild.members, name = ctx.message.author.name)
     await ctx.send("안녕하세요 {}님".format(my_name.mention))
+    return 0
 
 @bot.command()
 async def 도움(ctx):
@@ -39,6 +41,16 @@ async def 도움(ctx):
     embed.add_field(name = "**테이블탑 시뮬레이터 명령어**",value = "`!추천(숫자)`: `!추천(숫자)`를 치면(ex: `!추천3`) n인용 게임을 추천해줍니다.",inline=False)
     await channel.send(embed=embed)
     #embed 를 전송합니다.
+    return 0
+
+@bot.command()
+async def 별장(ctx):
+    user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
+    embed = discord.Embed(colour = discord.Colour.light_gray())
+    embed.set_author(name = "별장")
+    embed.set_image(url="./map/별장/1.png")
+    await ctx.send(embed=embed)
+    return 0
 
 """
 """
