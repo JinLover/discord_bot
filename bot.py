@@ -67,18 +67,18 @@ async def 지명(ctx, *, name = ""):
     return 0
 
 @bot.command()
-async def 추천(ctx, *, num = "1"):
+async def 추천(ctx, *, num = 1):
     user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
     embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 추천", 
                           description = "")
-    data = json_data["num"][num]
+    data = json_data["num"][num]["name"]
+    print(len(data))
     for n in range(len(data)):
-        embed.add_field(name = f"**{data[name][n]}**",
-                        value = f"[다운로드]{data[link][n]})\n{data[info][n]}",
+        embed.add_field(name = f"**{data['name'][n]}**",
+                        value = f"[다운로드]({data['link'][n]})\n{data['info'][n]}",
                         inline=False)
     await ctx.send(embed = embed)
     return 0
-
 
 #@bot.command(name="청소", pass_context=True)
 async def _clear(ctx, *, amount=1):
