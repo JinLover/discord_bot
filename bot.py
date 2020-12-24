@@ -33,14 +33,17 @@ async def 도움(ctx):
     user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
     channel = await user.create_dm()
     embed = discord.Embed(colour = discord.Colour.red())
-    #embed를 생성하고, embed의 색상을 blue로 지정합니다
     embed.set_author(name = "도움말")
-    #embed의 author를 "Help"로 지정합니다.
-    embed.add_field(name = "**기본 명령어**",value = "`!안녕`:봇이 인사해줍니다",inline=False)
-    embed.add_field(name = "**레인보우 식스: 시즈 명령어**",value = "`!지명 (맵이름)`: `!지명 (맵이름)`을 치면(ex:`!지명 별장`) 지명사진을 보냅니다.",inline=False)
-    embed.add_field(name = "**테이블탑 시뮬레이터 명령어**",value = "`!추천 (숫자)`: `!추천 (숫자)`를 치면(ex: `!추천3`) n인용 게임을 추천해줍니다.",inline=False)
+    embed.add_field(name = "**기본 명령어**",
+                    value = "`!안녕`:봇이 인사해줍니다",
+                    inline=False)
+    embed.add_field(name = "**레인보우 식스: 시즈 명령어**",
+                    value = "`!지명 (맵이름)`: `!지명 (맵이름)`을 치면(ex:`!지명 별장`) 지명사진을 보냅니다.",
+                    inline=False)
+    embed.add_field(name = "**테이블탑 시뮬레이터 명령어**",
+                    value = "`!추천 (숫자)`: `!추천 (숫자)`를 치면(ex: `!추천3`) n인용 게임을 추천해줍니다.\n보드게임 제목을 누르면 창작마당 링크로 이동합니다(웹페이지 로그인 필요)",
+                    inline=False)
     await channel.send(embed=embed)
-    #embed 를 전송합니다.
     return 0
 
 
@@ -56,6 +59,21 @@ async def 지명(ctx, *, name = ""):
             file = discord.File(f"{now}/map/{name}/{image}")
             await ctx.send(file = file)
     return 0
+
+@bot.command()
+async def 추천(ctx, *, num = "1"):
+    user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
+    embed = discord.Embed(colour = discord.Colour.orange())
+    embed.set_author(name = f"{num}인용 보드게임 추천")
+    embed.add_field(name = "**[지도 제작자들]<https://steamcommunity.com/sharedfiles/filedetails/?id=1817723272&searchtext=%EC%A7%80%EB%8F%84+%EC%A0%9C%EC%9E%91%EC%9E%90%EB%93%A4>**",
+                    value = "완벽한 지도를 탄생시키세요!",inline=False)
+    embed.add_field(name = "[**플리트 주사위 게임**]<https://steamcommunity.com/sharedfiles/filedetails/?id=1815452941&searchtext=Fleet%3A+The+Dice>",
+                    value = "`!지명 (맵이름)`: `!지명 (맵이름)`을 치면(ex:`!지명 별장`) 지명사진을 보냅니다.",inline=False)
+    embed.add_field(name = "**테이블탑 시뮬레이터 명령어**",
+                    value = "`!추천 (숫자)`: `!추천 (숫자)`를 치면(ex: `!추천3`) n인용 게임을 추천해줍니다.",inline=False)
+    await ctx.send(file = file)
+    return 0
+
 
 
 #@bot.command(name="청소", pass_context=True)
