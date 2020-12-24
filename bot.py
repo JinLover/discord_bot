@@ -47,7 +47,7 @@ async def 도움(ctx):
                     value = "`!지명 (맵이름)`: `!지명 (맵이름)`을 치면(ex:`!지명 별장`) 지명사진을 보냅니다.",
                     inline=False)
     embed.add_field(name = "**테이블탑 시뮬레이터 명령어**",
-                    value = "`!추천 (숫자)`: `!추천 (숫자)`를 치면(ex: `!추천3`) n인용 게임을 추천해줍니다.\n보드게임 제목을 누르면 창작마당 링크로 이동합니다(웹페이지 로그인 필요)",
+                    value = "`!추천 (숫자)`: `!추천 (숫자)`를 치면(ex: `!추천 3`) n인용 게임을 추천해줍니다.\n다운로드 링크를 누르면 창작마당 링크로 이동합니다(웹페이지 로그인 필요)\n게임 한줄평 제보 받습니다.",
                     inline=False)
     await channel.send(embed=embed)
     return 0
@@ -76,7 +76,7 @@ async def 추천(ctx, *, num = 1):
     for n in range(len(data["name"])):
         embed.add_field(name = f"**{data['name'][n]}**",
                         value = f"[다운로드]({data['link'][n]})\n{data['info'][n]}",
-                        inline=False)
+                        inline = n%2)
     await ctx.send(embed = embed)
     return 0
 
