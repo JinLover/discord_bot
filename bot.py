@@ -1,12 +1,18 @@
 import discord
 import asyncio
 import os
+import json
 
 from discord.ext import commands
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix='!', intents=intents)
 bot.remove_command('help')
+
+with open('game.json', 'r') as f:
+    json_data = json.load(f)
+
+print(json.dumps(json_data, indent="\t"))
 
 @bot.event
 async def on_ready():
@@ -65,22 +71,13 @@ async def 추천(ctx, *, num = "1"):
     user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
     embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 추천", 
                           description = "")
-    embed.add_field(name = "**지도 제작자들**",
-                    value = """[다운로드](https://steamcommunity.com/sharedfiles/filedetails/?id=1817723272&searchtext=%EC%A7%80%EB%8F%84+%EC%A0%9C%EC%9E%91%EC%9E%90%EB%93%A4)
-                            완벽한 지도를 탄생시키세요!""",
-                    inline=False)
-    embed.add_field(name = "**플리트 주사위 게임**",
-                    value = """[다운로드](https://steamcommunity.com/sharedfiles/filedetails/?id=1815452941&searchtext=Fleet%3A+The+Dice>)
-                            뭐하는 게임일까?""",
-                    inline=False)
-    embed.add_field(name = "**플리트 주사위 게임**",
-                    value = """[다운로드](https://steamcommunity.com/sharedfiles/filedetails/?id=1815452941&searchtext=Fleet%3A+The+Dice>)
-                            뭐하는 게임일까?""",
-                    inline=False)
+    data = json_data["num"][num]
+    for n in range(len(data)):
+        embed.add_field(name = f"**{data[name][n]}**",
+                        value = f"[다운로드]{data[link][n]})\n{data[info][n]}",
+                        inline=False)
     await ctx.send(embed = embed)
     return 0
-
-
 
 #@bot.command(name="청소", pass_context=True)
 async def _clear(ctx, *, amount=1):
