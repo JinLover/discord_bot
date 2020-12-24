@@ -71,9 +71,9 @@ async def 추천(ctx, *, num = 1):
     user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
     embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 추천", 
                           description = "")
-    data = json_data["num"][num]["name"]
+    data = json_data["num"][num]
     print(len(data))
-    for n in range(len(data)):
+    for n in range(len(data["name"])):
         embed.add_field(name = f"**{data['name'][n]}**",
                         value = f"[다운로드]({data['link'][n]})\n{data['info'][n]}",
                         inline=False)
