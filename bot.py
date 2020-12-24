@@ -37,19 +37,30 @@ async def 도움(ctx):
     embed.set_author(name = "도움말")
     #embed의 author를 "Help"로 지정합니다.
     embed.add_field(name = "**기본 명령어**",value = "`!안녕`:봇이 인사해줍니다",inline=False)
-    embed.add_field(name = "**레인보우 식스: 시즈 명령어**",value = "`!맵이름`: `!맵이름`을 치면(ex:`!별장`) 지명사진을 보냅니다.",inline=False)
-    embed.add_field(name = "**테이블탑 시뮬레이터 명령어**",value = "`!추천(숫자)`: `!추천(숫자)`를 치면(ex: `!추천3`) n인용 게임을 추천해줍니다.",inline=False)
+    embed.add_field(name = "**레인보우 식스: 시즈 명령어**",value = "`!지명 (맵이름)`: `!지명 (맵이름)`을 치면(ex:`!지명 별장`) 지명사진을 보냅니다.",inline=False)
+    embed.add_field(name = "**테이블탑 시뮬레이터 명령어**",value = "`!추천 (숫자)`: `!추천 (숫자)`를 치면(ex: `!추천3`) n인용 게임을 추천해줍니다.",inline=False)
     await channel.send(embed=embed)
     #embed 를 전송합니다.
     return 0
 
+
 @bot.command()
-async def 별장(ctx):
+async def 지명(ctx, *, name = ""):
     user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
-    embed = discord.Embed(colour = discord.Colour.light_gray())
-    embed.set_author(name = "별장")
-    embed.set_image(url="./map/별장/1.png")
-    await ctx.send(embed=embed)
+    if name not in os.listdir(f"./map"):
+        await ctx.send(f"{name}은 아직 등록되지 않았거나 없는 지명입니다.")
+    else:
+        files = os.listdir(f"./map/{name}")
+        now = os.getcwd()
+        for image in files:
+            file = discord.File(f"{now}/map/{name}/{image}")
+            await ctx.send(file = file)
+    return 0
+
+
+#@bot.command(name="청소", pass_context=True)
+async def _clear(ctx, *, amount=1):
+    await ctx.channel.purge(limit=amount)
     return 0
 
 """
