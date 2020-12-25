@@ -73,15 +73,13 @@ async def 지명(ctx, *, name = ""):
 
 @bot.command()
 async def 추천(ctx, *, num = 1):
-    def info_link(num):
-       return f"http://boardlife.co.kr/bbs_detail.php?bbs_num={num}&id=&tb=boardgame_strategy"
     user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
     embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 검색", 
                           description = "")
-    game_list = [game for game in json_data if num in game["best_num"]]
-    n = random.randint(0, len(game_list))
-    embed.add_field(name = f"**{game_list[n]}**",
-                    value = f"[다운로드]({game_list[n]['download']})\n[게임 정보]({game_list[n][info_link(link)]})\n{game_list[n]['comment']}",
+    game_list = [game for game in json_data["game"] if str(num) in game["best_num"]]
+    n = random.randint(0, len(game_list)-1)
+    embed.add_field(name = f"**{game_list[n]['name']}**",
+                    value = f"[다운로드]({download_link(game_list[n]['download'])})\n[게임 정보]({info_link(game_list[n]['link'])})\n{game_list[n]['comment']}",
                     inline = n%2)
     await ctx.send(embed = embed)
     return 0
@@ -91,10 +89,12 @@ async def 검색(ctx, *, num = 1, diff = None):
     user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
     embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 추천", 
                           description = "")
-    game_list = [game for game in json_data if num in game["best_num"]]
+
+    game_list = [game for game in json_data["game"] if str(num) in game["best_num"]]
+    print(game_list)
     for n in range(len(game_list)):
         embed.add_field(name = f"**{game_list[n]['name']}**",
-                        value = f"[다운로드]({game_list[n]['download']})\n[게임 정보]({game_list[n][info_link(link)]})\n{game_list[n]['comment']}",
+                        value = f"[다운로드]({download_link(game_list[n]['download'])})\n[게임 정보]({info_link(game_list[n]['link'])})\n{game_list[n]['comment']}",
                         inline = n%2)
     await ctx.send(embed = embed)
     return 0
