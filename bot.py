@@ -2,6 +2,7 @@ import discord
 import asyncio
 import os
 import json
+import random
 
 from discord.ext import commands
 
@@ -47,7 +48,11 @@ async def 도움(ctx):
                     value = "`!지명 (맵이름)`: `!지명 (맵이름)`을 치면(ex:`!지명 별장`) 지명사진을 보냅니다.",
                     inline=False)
     embed.add_field(name = "**테이블탑 시뮬레이터 명령어**",
-                    value = "`!추천 (숫자)`: `!추천 (숫자)`를 치면(ex: `!추천 3`) n인용 게임을 추천해줍니다.\n다운로드 링크를 누르면 창작마당 링크로 이동합니다(웹페이지 로그인 필요)\n게임 한줄평 제보 받습니다.",
+                    value = """`!추천 (숫자)`: `!추천 (숫자)`를 치면(ex: `!추천 3`) n인용 게임중 랜덤으로 하나를 추천해줍니다. 숫자를 적지 않을시 1인용 보드게임을 추천해줍니다.
+                    다운로드 링크를 누르면 창작마당 링크로 이동합니다(웹페이지 로그인 필요)\n게임 한줄평 제보 받습니다.
+                    `!검색 (숫자) (난이도)`: `!검색 (숫자) (난이도)` 를 치면 (ex: `!검색 3 하`) n인용 게임중 난이도에 맞는 게임 모두를 알려줍니다. 
+                    숫자와 난이도를 적지 않을시 1인용 보드게임 중 난이도 무관하게 알려줍니다. 난이도는 상, 중, 하 로 검색하시면 됩니다.
+                    """,
                     inline=False)
     await channel.send(embed=embed)
     return 0
@@ -68,14 +73,28 @@ async def 지명(ctx, *, name = ""):
 
 @bot.command()
 async def 추천(ctx, *, num = 1):
+    def info_link(num):
+       return f"http://boardlife.co.kr/bbs_detail.php?bbs_num={num}&id=&tb=boardgame_strategy"
+    user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
+    embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 검색", 
+                          description = "")
+    game_list = [game for game in json_data if num in game["best_num"]]
+    n = random.randint(0, len(game_list))
+    embed.add_field(name = f"**{game_list[n]}**",
+                    value = f"[다운로드]({game_list[n]['download']})\n[게임 정보]({game_list[n][info_link(link)]})\n{game_list[n]['comment']}",
+                    inline = n%2)
+    await ctx.send(embed = embed)
+    return 0
+
+@bot.command()
+async def 검색(ctx, *, num = 1, diff = None):
     user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
     embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 추천", 
                           description = "")
-    data = json_data["num"][num]
-    print(len(data))
-    for n in range(len(data["name"])):
-        embed.add_field(name = f"**{data['name'][n]}**",
-                        value = f"[다운로드]({data['link'][n]})\n{data['info'][n]}",
+    game_list = [game for game in json_data if num in game["best_num"]]
+    for n in range(len(game_list)):
+        embed.add_field(name = f"**{game_list[n]['name']}**",
+                        value = f"[다운로드]({game_list[n]['download']})\n[게임 정보]({game_list[n][info_link(link)]})\n{game_list[n]['comment']}",
                         inline = n%2)
     await ctx.send(embed = embed)
     return 0
