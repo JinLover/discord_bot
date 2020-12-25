@@ -84,7 +84,7 @@ async def 추천(ctx, *, num = 1):
     n = random.randint(0, len(game_list)-1)
     embed.add_field(name = f"**{game_list[n]['name']}**",
                     value = f"[다운로드]({download_link(game_list[n]['download'])})\n[게임 정보]({info_link(game_list[n]['link'])})\n{game_list[n]['comment']}",
-                    inline = n%2)
+                    inline = False)
     await ctx.send(embed = embed)
     return 0
 
@@ -99,7 +99,7 @@ async def 검색(ctx, *, num = 1, diff = None):
     for n in range(len(game_list)):
         embed.add_field(name = f"**{game_list[n]['name']}**",
                         value = f"[다운로드]({download_link(game_list[n]['download'])})\n[게임 정보]({info_link(game_list[n]['link'])})\n{game_list[n]['comment']}",
-                        inline = n%2)
+                        inline = True)
     await ctx.send(embed = embed)
     return 0
 
