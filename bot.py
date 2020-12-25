@@ -13,8 +13,6 @@ bot.remove_command('help')
 with open('game.json', 'r') as f:
     json_data = json.load(f)
 
-print(json.dumps(json_data, indent="\t"))
-
 def info_link(num):
        return f"http://boardlife.co.kr/bbs_detail.php?bbs_num={num}&id=&tb=boardgame_strategy"
 

@@ -2,1383 +2,1613 @@
 	"game": [
 		{
 			"name": "지도 제작자들",
-			"download": 1817723272.0,
-			"link": 11722.0,
-			"best_num": 3.0
+			"download": "1817723272",
+			"link": "11722",
+			"best_num": "3",
+			"comment": ""
 		},
 		{
 			"name": "플릿 더 다이스 게임",
-			"download": 1815452941.0,
-			"link": 10913.0,
-			"best_num": 1.0
+			"download": "1815452941",
+			"link": "10913",
+			"best_num": "1",
+			"comment": ""
 		},
 		{
 			"name": "오리엔트 익스프레스",
-			"download": 1333292796.0,
-			"link": 5749.0,
-			"best_num": 1.0
+			"download": "1333292796",
+			"link": "5749",
+			"best_num": "1",
+			"comment": ""
 		},
 		{
 			"name": "디스 워 오브 마인",
-			"download": 2245379584.0,
-			"link": 6676.0,
-			"best_num": 1.0
+			"download": "2245379584",
+			"link": "6676",
+			"best_num": "1",
+			"comment": ""
 		},
 		{
 			"name": "로빈슨 크루소(4)",
-			"download": 897553506.0,
-			"link": 932.0,
-			"best_num": 4.0
+			"download": "897553506",
+			"link": "932",
+			"best_num": "4",
+			"comment": ""
 		},
 		{
 			"name": "지구를 떠나다",
-			"download": 1165390172.0,
-			"link": 6059.0,
-			"best_num": 1.0
+			"download": "1165390172",
+			"link": "6059",
+			"best_num": "1",
+			"comment": ""
 		},
 		{
 			"name": "서쪽 왕국의 성기사들",
-			"download": 1687535617.0,
-			"link": 10619.0,
-			"best_num": 1.0
+			"download": "1687535617",
+			"link": "10619",
+			"best_num": "1",
+			"comment": ""
 		},
 		{
 			"name": "메이지나이트(2)",
-			"download": 936617750.0,
-			"link": 519.0,
-			"best_num": 2.0
+			"download": "936617750",
+			"link": "519",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "미스터 잭",
-			"download": 1485406459.0,
-			"link": 368.0,
-			"best_num": 2.0
+			"download": "1485406459",
+			"link": "368",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "산토리니",
-			"download": 937980433.0,
-			"link": 6694.0,
-			"best_num": 2.0
+			"download": "937980433",
+			"link": "6694",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "숲 속의 여우",
-			"download": 1298133888.0,
-			"link": 8706.0,
-			"best_num": 2.0
+			"download": "1298133888",
+			"link": "8706",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "해적들의 약탈",
-			"download": 1643422034.0,
-			"link": 1074.0,
-			"best_num": 2.0
+			"download": "1643422034",
+			"link": "1074",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "버팔로 체스",
-			"download": 1691350095.0,
-			"link": 11226.0,
-			"best_num": 2.0
+			"download": "1691350095",
+			"link": "11226",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "하나미코지",
-			"download": 1555561870.0,
-			"link": 7123.0,
-			"best_num": 2.0
+			"download": "1555561870",
+			"link": "7123",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "카후나",
-			"download": 1153818768.0,
-			"link": 563.0,
-			"best_num": 2.0
+			"download": "1153818768",
+			"link": "563",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "임호텝 듀얼",
-			"download": 1732813337.0,
-			"link": 11101.0,
-			"best_num": 2.0
+			"download": "1732813337",
+			"link": "11101",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "베런파크",
-			"download": 1674719183.0,
-			"link": 9107.0,
-			"best_num": 3.0
+			"download": "1674719183",
+			"link": "9107",
+			"best_num": "3",
+			"comment": ""
 		},
 		{
 			"name": "웰컴 투",
-			"download": 1682434402.0,
-			"link": 9868.0,
-			"best_num": 5.0
+			"download": "1682434402",
+			"link": "9868",
+			"best_num": "5",
+			"comment": ""
 		},
 		{
 			"name": "이스탄불 주사위 게임",
-			"download": 1734033461.0,
-			"link": 9319.0,
-			"best_num": 2.0
+			"download": "1734033461",
+			"link": "9319",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "카르카손",
-			"download": 263788054.0,
-			"link": 135.0,
-			"best_num": 2.0
+			"download": "263788054",
+			"link": "135",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "리스크 스타워즈",
-			"download": 1304274300.0,
-			"link": 6026.0,
-			"best_num": 2.0
+			"download": "1304274300",
+			"link": "6026",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "자이푸르",
-			"download": 1152124532.0,
-			"link": 533.0,
-			"best_num": 2.0
+			"download": "1152124532",
+			"link": "533",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "미니빌",
-			"download": 1789467526.0,
-			"link": 3565.0,
-			"best_num": 4.0
+			"download": "1789467526",
+			"link": "3565",
+			"best_num": "4",
+			"comment": ""
 		},
 		{
 			"name": "워 체스트",
-			"download": 1975715363.0,
-			"link": 9918.0,
-			"best_num": 2.0
+			"download": "1975715363",
+			"link": "9918",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "기프",
-			"download": 858764109.0,
-			"link": 558.0,
-			"best_num": 2.0
+			"download": "858764109",
+			"link": "558",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "인쉬",
-			"download": 283304347.0,
-			"link": 577.0,
-			"best_num": 2.0
+			"download": "283304347",
+			"link": "577",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "히어로 렐름",
-			"download": 1162095121.0,
-			"link": 7049.0,
-			"best_num": 2.0
+			"download": "1162095121",
+			"link": "7049",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "아키올로지: 새로운 탐험",
-			"download": 1144921234.0,
-			"link": 6282.0,
-			"best_num": 4.0
+			"download": "1144921234",
+			"link": "6282",
+			"best_num": "4",
+			"comment": ""
 		},
 		{
 			"name": "스플랜더",
-			"download": 2023213924.0,
-			"link": 3516.0,
-			"best_num": 3.0
+			"download": "2023213924",
+			"link": "3516",
+			"best_num": "3",
+			"comment": ""
 		},
 		{
 			"name": "몰타의 관문",
-			"download": 1198835784.0,
-			"link": 5972.0,
-			"best_num": 2.0
+			"download": "1198835784",
+			"link": "5972",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "사그라다",
-			"download": 1423161892.0,
-			"link": 7328.0,
-			"best_num": 2.0
+			"download": "1423161892",
+			"link": "7328",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "★아줄",
-			"download": 2143374769.0,
-			"link": 9032.0,
-			"best_num": 4.0
+			"download": "2143374769",
+			"link": "9032",
+			"best_num": "4",
+			"comment": ""
 		},
 		{
 			"name": "기즈모",
-			"download": 1571845499.0,
-			"link": 9789.0,
-			"best_num": 3.0
+			"download": "1571845499",
+			"link": "9789",
+			"best_num": "3",
+			"comment": ""
 		},
 		{
 			"name": "★화이트홀 미스테리",
-			"download": 1552367730.0,
-			"link": 9278.0,
-			"best_num": 2.0
+			"download": "1552367730",
+			"link": "9278",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "★반지의 제왕 대결",
-			"download": 1960728551.0,
-			"link": 876.0,
-			"best_num": 2.0
+			"download": "1960728551",
+			"link": "876",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "크베들린부르크의 돌팔이 약장수",
-			"download": 1723100170.0,
-			"link": 9737.0,
-			"best_num": 4.0
+			"download": "1723100170",
+			"link": "9737",
+			"best_num": "4",
+			"comment": ""
 		},
 		{
 			"name": "케번 터번",
-			"download": 1610422169.0,
-			"link": 9688.0,
-			"best_num": 2.0
+			"download": "1610422169",
+			"link": "9688",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "랩터",
-			"download": 1761314944.0,
-			"link": 5670.0,
-			"best_num": 2.0
+			"download": "1761314944",
+			"link": "5670",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "★오시리스를 향한 항해",
-			"download": 917380333.0,
-			"link": 9023.0,
-			"best_num": 2.0
+			"download": "917380333",
+			"link": "9023",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "석기시대",
-			"download": 1158317009.0,
-			"link": 214.0,
-			"best_num": 3.0
+			"download": "1158317009",
+			"link": "214",
+			"best_num": "3",
+			"comment": ""
 		},
 		{
 			"name": "뤄양의 사람들",
-			"download": 1303928787.0,
-			"link": 440.0,
-			"best_num": 2.0
+			"download": "1303928787",
+			"link": "440",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "타르기",
-			"download": 1755124810.0,
-			"link": 1324.0,
-			"best_num": 2.0
+			"download": "1755124810",
+			"link": "1324",
+			"best_num": "2",
+			"comment": ""
 		},
 		{
 			"name": "도망자",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★7 원더스 대결",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "안드로이드 넷러너",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "레포겔",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "서쪽 왕국 성기사",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "오부족",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "버건디의 성",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "그오호",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "코임브라",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "시즌스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "아를의 평원",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "그웨트",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "촐킨",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "황혼의 투쟁",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "카베르나",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "트라야누스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "푸드 체인 거물",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "트릭과 괴인",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "캡틴 블랙잭",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "러브크래프트 레터",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "마스크 맨",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "시타델",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★와이어트 어프",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "스플렌더",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "몰타의 관문",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "산 후앙",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "티투알",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "티투알 유럽",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★차이나타운",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "클랭크",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "도미니언",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "역사의 흐름",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "워터딥의 군주들",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★마르코폴로",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "사무라이",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★미친 왕 루드비히의 성",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★미친 왕 루드비히의 두 성 사이에서",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "카탄",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★석기시대",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "자금성",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "누스피요르드",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "뤄양의 사람들",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "클랜 오브 칼레도니아",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "서왕성",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "뉴턴",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "요코하마",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "코임브라",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★비티컬처",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "오부족",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "르아브르",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★이클립스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "시즌스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "촐킨",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "사이쓰",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★러시안 레일로드",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "쓰루 디 에이지스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★아나크로니",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "카베르나",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "가이아 프로젝트",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★브래스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "빌리지",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "트루아",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "텀블링 다이스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "듀얼 클래시 포커",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "익스플로딩 키튼",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "크라스 카리어트",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "란드운터",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "트릭과 괴인",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "보나베띠",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "스시 롤",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "지도 제작자들",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "판타지 왕국",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "스파이폴",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "컬러레또",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "스시고 파티",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "내부자",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "마스크 맨",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "미니빌",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★왕의 핸드",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★스컬",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "스컬킹",
-			"download": 2048418667.0,
-			"link": 4255.0,
-			"best_num": 6.0
+			"download": "2048418667",
+			"link": "4255",
+			"best_num": "6",
+			"comment": ""
 		},
 		{
 			"name": "워 체스트",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "보난자",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "티츄",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "7 원더스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "센추리",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "산 후앙",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "브룸 서비스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "해저탐험",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "아브라카 왓",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "티투알",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "티투알 유럽",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "포뮬라 D",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "이스탄불",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "하코온나",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "루트",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★런던",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★시드마이어의 문명 : 새벽",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★엔데버",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★비티컬처",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "푸에르토리코",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "아그리콜라",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "르아브르",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "요코하마",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★위대한 로렌초",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★이클립스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "와우",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★러시안 레일로드",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "테라포밍 마스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "가이아 프로젝트",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "트라야누스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★브래스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "푸드 체인 거물",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "빌리지",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★트루아",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "트릭케리언",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "크툴루 다이스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "츠로",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "스컬",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "딕싯",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "익스플로딩 키튼",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "란드운터",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "라스베가스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "해저탐험",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "벼룩 서커스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "컬러레또",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "사무라이 소드",
-			"download": 1614172710.0,
-			"link": 249.0,
-			"best_num": 6.0
+			"download": "1614172710",
+			"link": "249",
+			"best_num": "6",
+			"comment": ""
 		},
 		{
 			"name": "언더밸리",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "카멜롯의 그림자",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "하코온나",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "낫 얼론",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "브룸 서비스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "카멜업",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★미친 왕 루트비히의 두 성 사이에서",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "마닐라",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "두 도시 사이에서",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "엘 그란데",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "사이쓰",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "츠로",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "스컬",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "딕싯",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "달무티",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "젝스님트",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "코바야카와",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "스시고 파티",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "카멜업",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "로얄 터프",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★코드네임",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "디크립토",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "스파이폴",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "카멜롯의 그림자",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "범인은 춤춘다",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★뱅 주사위",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★사보타지",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "크툴루를 건드리지 마라",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "토르투가 1667(7)",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "쉐도우 헌터스(7)",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "디셉션 홍콩살인사건",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "세일럼",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "시크릿 히틀러",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "레지스탕스 아발론",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": " 굿캅 배드캅",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "캐쉬 앤 건즈",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★일급비밀스파이",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★수도원의 미스테리",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★미친 왕 루드비히의 성",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★미친 왕 루드비히의 두 성 사이에서",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "룸25",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "언집배",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "좀비사이드",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "와우",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★여명의 제국",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★일급비밀스파이",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "범인은 춤춘다",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "멜롯의 그림자",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★뱅 주사위",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★사보타지",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "토르투가 1667",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "쉐도우 헌터스",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": " 카",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "텔레스트레이션",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "굿캅 배드캅",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "캐쉬 앤 건즈",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "디셉션 홍콩살인사건",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "시크릿 히틀러",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "레지스탕스 아발론",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "★코드네임",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		},
 		{
 			"name": "디크립토",
-			"download": NaN,
-			"link": NaN,
-			"best_num": NaN
+			"download": "",
+			"link": "",
+			"best_num": "",
+			"comment": ""
 		}
 	]
 }
