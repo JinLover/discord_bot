@@ -138,7 +138,7 @@
 			"download": "263788054",
 			"link": "135",
 			"best_num": "2",
-			"comment": ""
+			"comment": "지도 조각을 맞춰 점수를 얻는 게임"
 		},
 		{
 			"name": "리스크 스타워즈",
@@ -303,10 +303,10 @@
 		},
 		{
 			"name": "★7 원더스 대결",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
+			"download": "2125928622",
+			"link": "5222",
+			"best_num": "2",
+			"comment": "2명이서 즐기는 7 원더스"
 		},
 		{
 			"name": "안드로이드 넷러너",
@@ -317,13 +317,6 @@
 		},
 		{
 			"name": "레포겔",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
-		},
-		{
-			"name": "서쪽 왕국 성기사",
 			"download": "",
 			"link": "",
 			"best_num": "",
@@ -456,13 +449,6 @@
 			"comment": ""
 		},
 		{
-			"name": "스플렌더",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
-		},
-		{
 			"name": "몰타의 관문",
 			"download": "",
 			"link": "",
@@ -555,9 +541,9 @@
 		},
 		{
 			"name": "카탄",
-			"download": "",
-			"link": "",
-			"best_num": "",
+			"download": "1909930780",
+			"link": "274",
+			"best_num": "4",
 			"comment": ""
 		},
 		{
@@ -884,10 +870,10 @@
 		},
 		{
 			"name": "7 원더스",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
+			"download": "2081630525",
+			"link": "94",
+			"best_num": "5",
+			"comment": "자신의 제국을 키워나가자"
 		},
 		{
 			"name": "센추리",
@@ -1052,10 +1038,10 @@
 		},
 		{
 			"name": "테라포밍 마스",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
+			"download": "895237791",
+			"link": "6501",
+			"best_num": "3",
+			"comment": "화성을 테라포밍하자"
 		},
 		{
 			"name": "가이아 프로젝트",
@@ -1129,17 +1115,10 @@
 		},
 		{
 			"name": "딕싯",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
-		},
-		{
-			"name": "익스플로딩 키튼",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
+			"download": "2180591230",
+			"link": "14",
+			"best_num": "6",
+			"comment": "설명을 듣고 진짜 카드를 맞춰보자"
 		},
 		{
 			"name": "란드운터",
@@ -1234,10 +1213,10 @@
 		},
 		{
 			"name": "마닐라",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
+			"download": "467897898",
+			"link": "1084",
+			"best_num": "5",
+			"comment": "주식으로 돈을 벌어보자"
 		},
 		{
 			"name": "두 도시 사이에서",
@@ -1283,10 +1262,10 @@
 		},
 		{
 			"name": "달무티",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
+			"download": "2239290763",
+			"link": "968",
+			"best_num": "6",
+			"comment": "신분상승을 노려보자"
 		},
 		{
 			"name": "젝스님트",
@@ -1367,9 +1346,9 @@
 		},
 		{
 			"name": "★사보타지",
-			"download": "",
-			"link": "",
-			"best_num": "",
+			"download": "389948658",
+			"link": "5194",
+			"best_num": "6",
 			"comment": ""
 		},
 		{
@@ -1381,13 +1360,6 @@
 		},
 		{
 			"name": "토르투가 1667(7)",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
-		},
-		{
-			"name": "쉐도우 헌터스(7)",
 			"download": "",
 			"link": "",
 			"best_num": "",
@@ -1520,13 +1492,6 @@
 			"comment": ""
 		},
 		{
-			"name": "★뱅 주사위",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
-		},
-		{
 			"name": "★사보타지",
 			"download": "",
 			"link": "",
@@ -1542,10 +1507,10 @@
 		},
 		{
 			"name": "쉐도우 헌터스",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
+			"download": "578726862",
+			"link": "92",
+			"best_num": "7",
+			"comment": "판타지풍 마피아 게임"
 		},
 		{
 			"name": " 카",
@@ -1590,13 +1555,6 @@
 			"comment": ""
 		},
 		{
-			"name": "레지스탕스 아발론",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
-		},
-		{
 			"name": "★코드네임",
 			"download": "",
 			"link": "",
@@ -1609,6 +1567,76 @@
 			"link": "",
 			"best_num": "",
 			"comment": ""
+		},
+		{
+			"name": "팬데믹",
+			"download": "2238018393",
+			"link": "84",
+			"best_num": "4",
+			"comment": "협동을 통해 퍼져나가는 질병을 막아내자"
+		},
+		{
+			"name": "바퀴벌레 포커",
+			"download": "1123447710",
+			"link": "215",
+			"best_num": "5",
+			"comment": "친구들과 함께하는 카드게임 심리전"
+		},
+		{
+			"name": "레지스탕스: 쿠",
+			"download": "2208069907",
+			"link": "4271",
+			"best_num": "4",
+			"comment": "친구들과 함께하는 카드게임 심리전"
+		},
+		{
+			"name": "블리츠",
+			"download": "2128792109",
+			"link": "4687",
+			"best_num": "5",
+			"comment": "간단한 어휘 순발력 게임"
+		},
+		{
+			"name": "뱅",
+			"download": "969381729",
+			"link": "475",
+			"best_num": "7",
+			"comment": "서부개척풍 마피아 게임"
+		},
+		{
+			"name": "맨덤의 던전",
+			"download": "1144519761",
+			"link": "3750",
+			"best_num": "4",
+			"comment": "제일의 쫄보를 가리자"
+		},
+		{
+			"name": "웰컴 투 더 던전",
+			"download": "734663995",
+			"link": "5266",
+			"best_num": "4",
+			"comment": "맨덤의 던전 확장판"
+		},
+		{
+			"name": "러브레터",
+			"download": "718774193",
+			"link": "81",
+			"best_num": "4",
+			"comment": "빠르고 재미있는 간단한 카드게임"
+		},
+		{
+			"name": "화이트채플에서 온 편지",
+			"download": "411865577",
+			"link": "423",
+			"best_num": "2",
+			"comment": "살인마 잭을 검거하자"
+		},
+		{
+			"name": "샤오리아",
+			"download": "2173039102",
+			"link": "11253",
+			"best_num": "2",
+			"comment": "왕국을 건설하고 전국시대를 끝내자"
 		}
 	]
 }
