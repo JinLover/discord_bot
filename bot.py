@@ -94,7 +94,8 @@ async def 검색(ctx, *inp):
     if len(inp) == 0:
         embed = discord.Embed(colour = discord.Colour.orange(), title =  "오류!", 
                           description = "숫자 또는 게임 이름을 입력해주세요")
-    elif len(inp) == 1:
+    elif len(inp) == 1 and len(inp[0]) == 1 and inp[0].isdigit():
+        print(len(inp[0]), inp[0].isdigit())
         num = inp[0]
         embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 목록", 
                           description = "")
@@ -104,9 +105,10 @@ async def 검색(ctx, *inp):
                             value = f"[다운로드]({download_link(game_list[n]['download'])})\n[게임 정보]({info_link(game_list[n]['link'])})\n{game_list[n]['comment']}",
                             inline = True)
     else:
-        name = inp.join("")
+        name = "".join(inp)
         game_list = [game for game in json_data["game"]]
         expect = []
+        same = []
         max_match = 0
         for game in game_list:
             match = 0
@@ -114,14 +116,16 @@ async def 검색(ctx, *inp):
                 if char in game["name"]:
                     match += 1
             if match == len(name):
-                break
+                same.append(game)
             if match >= max_match:
                 max_match = match
                 expect.append(game)
-        if match == len(name):
-            embed = discord.Embed(colour = discord.Colour.orange(), title = game["name"])
-            embed.add_field(value = f"[다운로드]({download_link(game['download'])})\n[게임 정보]({info_link(game['link'])})\n{game['comment']}",
-                            inline = True)
+        if same:
+            embed = discord.Embed(colour = discord.Colour.orange(), title = "검색 결과")
+            for game in same:
+                embed.add_field(name = game["name"],
+                                value = f"[다운로드]({download_link(game['download'])})\n[게임 정보]({info_link(game['link'])})\n{game['comment']}",
+                                inline = True)
         else:
             if len(expect) <= 3:
                 end = len(expect)
