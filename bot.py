@@ -54,8 +54,9 @@ async def 도움(ctx):
     embed.add_field(name = "**테이블탑 시뮬레이터 명령어**",
                     value = """`!추천 (숫자)`: `!추천 (숫자)`를 치면(ex: `!추천 3`) n인용 게임중 랜덤으로 하나를 추천해줍니다. 숫자를 적지 않을시 1인용 보드게임을 추천해줍니다.
                     다운로드 링크를 누르면 창작마당 링크로 이동합니다(웹페이지 로그인 필요)\n게임 한줄평 제보 받습니다.
-                    `!검색 (숫자)`: `!검색 (숫자)` 를 치면 (ex: `!검색 3`) n인용 게임 모두를 알려줍니다.
-                    `!검색 (게임이름)`: `!검색 (게임이름)` 을 치면 (ex: `!검색 테라포밍 마스`) 해당 게임이 있을시 게임에 대한 정보를 알려줍니다.
+                    `!검색 (숫자)`: `!검색 (숫자)` 를 치면 (ex: `!검색 3`) n인용 게임중 15개까지 알려줍니다.
+                    `!검색 (게임이름)`: `!검색 (게임이름)` 을 치면 (ex: `!검색 테라포밍 마스`) 해당 게임이 있을시 게임에 대한 정보를 알려줍니다. 검색어는 두글자 이상이어야 합니다.
+                    `!전부검색 (숫자)`: `!전부검색 (숫자)`를 치면 (ex: `!전부검색 2`) n인용 게임 전부를 개인 DM으로 알려줍니다.
                     """,
                     inline=False)
     await channel.send(embed=embed)
@@ -89,18 +90,25 @@ async def 추천(ctx, *, num = 1):
     return 0
 
 @bot.command()
-async def 검색(ctx, *inp):
+async def 검색(ctx, *inp, description = ""):
     user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
-    if len(inp) == 0:
+    if len(inp) == 0 or len(inp) == 1 and len(inp[0]) == 1 and inp[0].isalpha():
         embed = discord.Embed(colour = discord.Colour.orange(), title =  "오류!", 
-                          description = "숫자 또는 게임 이름을 입력해주세요")
+                          description = "숫자 또는 두글자 이상의 검색어를 입력해주세요")
     elif len(inp) == 1 and len(inp[0]) == 1 and inp[0].isdigit():
-        print(len(inp[0]), inp[0].isdigit())
         num = inp[0]
-        embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 목록", 
-                          description = "")
+        
         game_list = [game for game in json_data["game"] if str(num) in game["best_num"]]
-        for n in range(len(game_list)):
+        choose = range(len(game_list))
+
+        if len(game_list) > 15:
+            choose = random.sample(choose, 15)
+            description = "게임 목록이 많아 15개의 게임만 표시되었습니다."
+
+        embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 목록", 
+                          description = description)
+        
+        for n in choose:
             embed.add_field(name = f"**{game_list[n]['name']}**",
                             value = f"[다운로드]({download_link(game_list[n]['download'])})\n[게임 정보]({info_link(game_list[n]['link'])})\n{game_list[n]['comment']}",
                             inline = True)
@@ -117,7 +125,7 @@ async def 검색(ctx, *inp):
                     match += 1
             if match == len(name):
                 same.append(game)
-            if match >= max_match:
+            if match > max_match:
                 max_match = match
                 expect.append(game)
         if same:
@@ -126,7 +134,8 @@ async def 검색(ctx, *inp):
                 embed.add_field(name = game["name"],
                                 value = f"[다운로드]({download_link(game['download'])})\n[게임 정보]({info_link(game['link'])})\n{game['comment']}",
                                 inline = True)
-        else:
+        elif expect:
+            end = len(expect)
             if len(expect) <= 3:
                 end = len(expect)
             embed = discord.Embed(colour = discord.Colour.orange(), title = "혹시 이 게임을 찾으셨나요?")
@@ -134,8 +143,29 @@ async def 검색(ctx, *inp):
                 embed.add_field(name = f"**{expect[n]['name']}**",
                                 value = f"[다운로드]({download_link(expect[n]['download'])})\n[게임 정보]({info_link(expect[n]['link'])})\n{expect[n]['comment']}",
                                 inline = True)
+        else:
+            embed = discord.Embed(colour = discord.Colour.orange(), title = "검색 결과", description = "찾으시는 게임이 없습니다.")
 
     await ctx.send(embed = embed)
+    return 0
+
+@bot.command()
+async def 전부검색(ctx, *inp):
+    user = discord.utils.get(ctx.guild.members, name=ctx.message.author.name)
+    channel = await user.create_dm()
+    if len(inp) == 0 or inp[0].isalpha():
+        embed = discord.Embed(colour = discord.Colour.orange(), title =  "오류!", 
+                          description = "숫자를 입력해주세요")
+    else:
+        num = inp[0]
+        game_list = [game for game in json_data["game"] if str(num) in game["best_num"]]
+        embed = discord.Embed(colour = discord.Colour.orange(), title =  f"{num}인용 보드게임 목록")
+        
+        for n in range(len(game_list)):
+            embed.add_field(name = f"**{game_list[n]['name']}**",
+                            value = f"[다운로드]({download_link(game_list[n]['download'])})\n[게임 정보]({info_link(game_list[n]['link'])})\n{game_list[n]['comment']}",
+                            inline = True)
+    await channel.send(embed=embed)
     return 0
 
 #@bot.command(name="청소", pass_context=True)
