@@ -372,13 +372,6 @@
 			"comment": ""
 		},
 		{
-			"name": "촐킨",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
-		},
-		{
 			"name": "황혼의 투쟁",
 			"download": "",
 			"link": "",
@@ -834,13 +827,6 @@
 			"comment": ""
 		},
 		{
-			"name": "★스컬",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
-		},
-		{
 			"name": "스컬킹",
 			"download": "2048418667",
 			"link": "4255",
@@ -876,11 +862,11 @@
 			"comment": "자신의 제국을 키워나가자"
 		},
 		{
-			"name": "센추리",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
+			"name": "센추리:향신료의 길",
+			"download": "2274128431",
+			"link": "8223",
+			"best_num": "4",
+			"comment": "향신료를 거래해 점수를 얻자"
 		},
 		{
 			"name": "산 후앙",
@@ -982,9 +968,9 @@
 		},
 		{
 			"name": "푸에르토리코",
-			"download": "",
-			"link": "",
-			"best_num": "",
+			"download": "759561555",
+			"link": "90",
+			"best_num": "4",
 			"comment": ""
 		},
 		{
@@ -1101,13 +1087,6 @@
 		},
 		{
 			"name": "츠로",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
-		},
-		{
-			"name": "스컬",
 			"download": "",
 			"link": "",
 			"best_num": "",
@@ -1248,13 +1227,6 @@
 		},
 		{
 			"name": "스컬",
-			"download": "",
-			"link": "",
-			"best_num": "",
-			"comment": ""
-		},
-		{
-			"name": "딕싯",
 			"download": "",
 			"link": "",
 			"best_num": "",
