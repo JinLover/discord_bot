@@ -23,7 +23,7 @@ def download_link(num):
 async def on_ready():
     print(bot.user.id)
     print("ready")
-    game = discord.Game("혼자서 놀기")
+    game = discord.Game("명령어:!도움")
     await bot.change_presence(status=discord.Status.online, activity=game)
     return 0
 
